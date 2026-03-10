@@ -12,9 +12,9 @@ def main() -> None:
     earth = create_earth()
 
     print("\nMethod 1 - Full module import:")
-    print(f"alchemy.element.create_fire(): {alchemy.elements.create_fire}")
+    print(f"alchemy.element.create_fire(): {alchemy.elements.create_fire()}")
 
-    print("\nMethod 2 - Specif function import:")
+    print("\nMethod 2 - Specific function import:")
     print(f"create.water(): {water}")
 
     print("\nMethod 3 - Aliased import:")
@@ -25,7 +25,7 @@ def main() -> None:
     print(f"create.fire(): {create_fire()}")
     print(f"strengh_potion(): {strength_potion(earth, fire)}")
 
-    print("All import transmutation methods mastered!")
+    print("\nAll import transmutation methods mastered!")
 
 
 if __name__ == "__main__":
