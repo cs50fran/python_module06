@@ -1,6 +1,7 @@
 import alchemy
 import alchemy.elements
 
+
 def main() -> None:
     print("=== Sacred Scroll Mastery ===")
 
@@ -13,7 +14,6 @@ def main() -> None:
     print("\nTesting package-level access (controlled by __init__.py):")
     print(f"alchemy.elements.create_fire(): {alchemy.create_fire()}")
     print(f"alchemy.elements.create_water(): {alchemy.create_water()}")
-    
 
     print("\nTrying to acess not imported functions:")
     try:
@@ -30,6 +30,6 @@ def main() -> None:
     print(f"Version: {alchemy.__version__}")
     print(f"Author: {alchemy.__author__}")
 
+
 if __name__ == "__main__":  
     main()
- 

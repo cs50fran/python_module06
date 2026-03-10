@@ -3,13 +3,13 @@ import alchemy.potions
 from alchemy.potions import strength_potion, healing_potion as heal
 from alchemy.elements import create_fire, create_water, create_earth
 
+
 def main() -> None:
     print("=== Import Transmutation Mastery ===")
 
     fire = create_fire()
     water = create_water()
     earth = create_earth()
-
 
     print("\nMethod 1 - Full module import:")
     print(f"alchemy.element.create_fire(): {alchemy.elements.create_fire}")
