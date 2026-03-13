@@ -3,7 +3,7 @@ import alchemy.elements
 
 
 def main() -> None:
-    print("=== Sacred Scroll Mastery ===")
+    print("\n=== Sacred Scroll Mastery ===")
 
     print("\nTesting direct module access:")
     print("alchemy.elements.create_fire(): "
@@ -19,7 +19,7 @@ def main() -> None:
     print(f"alchemy.create_fire(): {alchemy.create_fire()}")
     print(f"alchemy.create_water(): {alchemy.create_water()}")
 
-    print("\nTrying to access not imported functions:")
+    """ Trying to access not imported functions """
     try:
         alchemy.create_earth()  # type: ignore
     except AttributeError:

@@ -4,7 +4,7 @@ from alchemy.elements import create_fire, create_water, create_earth
 
 
 def main() -> None:
-    print("=== Import Transmutation Mastery ===")
+    print("\n=== Import Transmutation Mastery ===")
 
     print("\nMethod 1 - Full module import:")
     print(f"alchemy.elements.create_fire(): {alchemy.elements.create_fire()}")

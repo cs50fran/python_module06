@@ -4,7 +4,7 @@ import alchemy.transmutation
 
 
 def main() -> None:
-    print("=== Pathway Debate Mastery ===")
+    print("\n=== Pathway Debate Mastery ===")
 
     print("\nTesting Absolute Imports (from basic.py):")
     print(f"lead_to_gold(): {lead_to_gold()}")
