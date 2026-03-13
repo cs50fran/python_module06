@@ -16,10 +16,10 @@ def main() -> None:
           f"{alchemy.elements.create_air()}")
 
     print("\nTesting package-level access (controlled by __init__.py):")
-    print(f"alchemy.elements.create_fire(): {alchemy.create_fire()}")
-    print(f"alchemy.elements.create_water(): {alchemy.create_water()}")
+    print(f"alchemy.create_fire(): {alchemy.create_fire()}")
+    print(f"alchemy.create_water(): {alchemy.create_water()}")
 
-    print("\nTrying to acess not imported functions:")
+    print("\nTrying to access not imported functions:")
     try:
         alchemy.create_earth()  # type: ignore
     except AttributeError:
